@@ -75,7 +75,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'w.fortnite pc Dr.c.o.c.k') {
-    	message.reply('נגר נגר יא נגר יאאא נגר');
+    	message.reply('פרו פרו יא פרו יאאא פרו');
   	}
 });
 
@@ -106,6 +106,24 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === 'עזרה') {
     	message.reply('אל תהיה נגר');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'שלח לי מה לכתוב') {
+    	message.reply('<@267629291196383232>');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'w.fortnite pc naveh') {
+    	message.reply('פרו יואו איזה פרו');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'w.fortnite pc naveh') {
+    	message.reply('פרו יואו איזה פרו');
   	}
 });
 
