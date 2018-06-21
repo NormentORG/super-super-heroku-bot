@@ -268,5 +268,16 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'mining away') {
+    	message.reply('Mining away');
+        message.reply('I do not know what to mine');
+        message.reply('I will mine this anyway');
+        message.reply('In this Minecraft day');
+        message.reply('So beautiful, mine further down');
+        message.reply('What is that I found?');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
