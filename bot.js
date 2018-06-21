@@ -17,5 +17,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'ואם חבר שלי לא נגר?') {
+    	message.reply('אתה אקסטרה נגר');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
