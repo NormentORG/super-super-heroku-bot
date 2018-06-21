@@ -47,5 +47,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'w.fortnite') {
+    	message.reply('מה אתה ינגר');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'w.fortnite pc') {
+    	message.reply('מספיק טוב. אבל לא מספיק ינגררר');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
