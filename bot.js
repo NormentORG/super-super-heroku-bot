@@ -309,5 +309,60 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'כיסא') {
+    	message.reply('שולחן');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'שולחן') {
+    	message.reply('כיסא');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'מיני מקרר') {
+    	message.reply('קליק בסקוויט');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'קליק בסוויט') {
+    	message.reply('מיני מקרר');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'ארון') {
+    	message.reply('דלפק');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'דלפק') {
+    	message.reply('פרקט');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'פרקט') {
+    	message.reply('חשמליות');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'חשמליות') {
+    	message.reply('דורה');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'דורה') {
+    	message.reply('שבור לו תא-פדלים');
+  	}
+});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
