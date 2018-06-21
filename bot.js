@@ -258,5 +258,15 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'jump up make a sound') {
+    	message.reply('So get up, get down. ');
+        message.reply('If you are gonna come around.');
+        message.reply('We can work together helping Twilight win the crown.');
+        message.reply('So get up, get down cause its gonna make a sound.');
+        message.reply('If we work together helping Twilight Sparkle win the crown.');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
