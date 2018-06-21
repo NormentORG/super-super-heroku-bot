@@ -164,5 +164,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'יואוו אני כזה טובבב') {
+    	message.reply('שקר!');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'אתה נגר') {
+    	message.reply('אתה נגר');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
