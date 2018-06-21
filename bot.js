@@ -328,7 +328,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'קליק בסוויט') {
+    if (message.content === 'קליק בסקוויט') {
     	message.reply('מיני מקרר');
   	}
 });
