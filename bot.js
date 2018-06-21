@@ -139,5 +139,36 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'Dare Devil') {
+    	message.reply('אני רק רובוט עזבו אותי בשקט');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'dhtdht020') {
+    	message.reply('אבא?');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Forknut') {
+    	message.reply('Hello Hello,');
+        message.reply('My name is יואו יואו');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Wings') {
+    	message.reply('שורשים וכנפיים לכיתה ח');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Eilon007') {
+    	message.reply('נגר');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
