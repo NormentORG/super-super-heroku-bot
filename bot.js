@@ -127,5 +127,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'רעיון מצויין') {
+    	message.reply('לא יודע');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'לא יודע') {
+    	message.reply('רעיון מצויין');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
