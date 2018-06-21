@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message('pong');
+    if (message.content === 'מי נגר?') {
+    	message.reply('אתה נגר');
   	}
 });
 
