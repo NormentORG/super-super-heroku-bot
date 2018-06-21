@@ -73,5 +73,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'w.fortnite pc Dr.c.o.c.k') {
+    	message.reply('נגר נגר יא נגר יאאא נגר');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
