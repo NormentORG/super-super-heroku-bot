@@ -176,5 +176,41 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'איזה נגר אתההה') {
+    	message.reply('איזה נגר אתההה');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'בוא לשחקק') {
+    	message.reply('אמא?');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'יואווווווווווווווווווווו') {
+    	message.reply('יואווווווווווווווווווווו יואווווווווווווווווווווו יואווווווווווווווווווווו');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'יואווו') {
+    	message.reply('יואווו יואווו יואווו יואווו יואווו');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'אבל משהו אחד משותף לכל בני האדם') {
+    	message.reply('כולם נגרים חסרי חיים');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'אין צורך בשפה שכזוו') {
+    	message.reply('יואווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווווו');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
