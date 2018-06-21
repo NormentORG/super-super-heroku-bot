@@ -235,5 +235,22 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'double rick roll') {
+    	message.reply('Never gonna give you up');
+        message.reply('Never gonna let you down');
+        message.reply('Never gonna run around and desert you');
+        message.reply('Never gonna make you cry');
+        message.reply('Never gonna say goodbye');
+        message.reply('Never gonna tell a lie and hurt you');
+        message.reply('Never gonna give you up');
+        message.reply('Never gonna let you down');
+        message.reply('Never gonna run around and desert you');
+        message.reply('Never gonna make you cry');
+        message.reply('Never gonna say goodbye');
+        message.reply('Never gonna tell a lie and hurt you');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
