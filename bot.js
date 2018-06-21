@@ -42,7 +42,7 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'w.fortnite pc ofir26') {
+    if (message.content === 'w.fortnite pc eilon007') {
     	message.reply('לדעתי הוא נגר יואו יואו יואו');
   	}
 });
