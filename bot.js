@@ -31,13 +31,19 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'w.fortnite pc Tripaluski') {
-    	message.reply('לדעתי נגר');
+    	message.reply('לדעתי פרו לול');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'w.fortnite pc ofir26') {
     	message.reply('לדעתי פרו יואווו');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'w.fortnite pc ofir26') {
+    	message.reply('לדעתי הוא נגר יואו יואו יואו');
   	}
 });
 
