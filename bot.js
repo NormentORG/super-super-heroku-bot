@@ -369,6 +369,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'לא אתה') {
+    	message.reply('אם אני אני כי אתה אתה, ואתה אתה כי אני אני, אז אני לא אני ואתה לא אתה. אבל אם אני אני כי אני אני, ואתה אתה כי אתה אתה, אז אני אני ואתה אתה.');
+  	}
+});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
