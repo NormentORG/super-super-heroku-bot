@@ -35,5 +35,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'w.fortnite pc ofir26') {
+    	message.reply('לדעתי פרו יואווו');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
