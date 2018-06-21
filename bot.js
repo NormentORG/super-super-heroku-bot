@@ -122,12 +122,6 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'w.fortnite pc naveh') {
-    	message.reply('פרו יואו איזה פרו');
-  	}
-});
-
-client.on('message', message => {
     if (message.content === 'רעיון מצויין') {
     	message.reply('לא יודע');
   	}
