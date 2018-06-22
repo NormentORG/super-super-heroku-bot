@@ -375,5 +375,25 @@ client.on('message', message => {
   	}
 });
 
+
+client.on('message', message => {
+    if (message.content === 'בוקר טוב') {
+    	message.reply('לגידי גוב');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'גידי גוב') {
+    	message.reply('בוקר טוב');
+  	}
+});
+
+
+client.on('message', message => {
+    if (message.content === 'בוקר טוב לגידי גוב') {
+    	message.reply('גידי גוב, בוקר טוב');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
