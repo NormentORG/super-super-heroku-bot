@@ -395,5 +395,11 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '.play fingertips') {
+    	message.reply('Did you mean: Its everyday bro?');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
