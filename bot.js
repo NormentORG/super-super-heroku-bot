@@ -405,6 +405,26 @@ client.on('message', message => {
     if (message.content === '.stop') {
     	message.reply('Checking if נגר');
         message.reply('No נגר detected. Stopping.');
+        message.reply('עוצר את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('עוצר גם את זה');
+        message.reply('ועוצר את זה.');
   	}
 });
 
