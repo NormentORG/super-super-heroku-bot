@@ -401,5 +401,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '.stop') {
+    	message.reply('Checking if נגר');
+        message.reply('No נגר detected. Stopping.');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
