@@ -429,6 +429,33 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
+    if (message.content === '.resume') {
+    	message.reply('Checking if נגר');
+        message.reply('No נגר detected. Stopping.');
+        message.reply('ממשיך את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('ממשיך גם את זה');
+        message.reply('וממשיך את זה.');
+  	}
+});
+
+client.on('message', message => {
     if (message.content === '.loop') {
     	message.reply('Loopity Loop');
   	}
