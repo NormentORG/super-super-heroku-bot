@@ -408,5 +408,17 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '.loop') {
+    	message.reply('Loopity Loop');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '.skip') {
+    	message.reply('Skipping the next 1M songs.. Please wait.');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
