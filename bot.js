@@ -473,5 +473,21 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === 'not your toy') {
+    	message.reply('אני לא צעצוע שחה');
+        message.reply('לא צעצוע שחה');
+        message.reply('ימטומטם');
+        message.reply('מטומטם');
+        message.reply('אני אקח אותך למטה');
+        message.reply('אגרום לך להסתכל עלי');
+        message.reply('רוקדת עם הבובות שלי ');
+        message.reply('על המוטה באקה ביט');
+        message.reply('לא צעצוע שחה');
+        message.reply('קולולו קולולו');
+        message.reply('קולולו קולולו');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
