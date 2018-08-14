@@ -489,11 +489,5 @@ client.on('message', message => {
   	}
 });
 
-client.on('message', message => {
-    if (message.content === message.content) {
-    	message.reply(message.content);
-  	}
-});
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
